@@ -1,15 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>top.ailvcheng</groupId>
     <artifactId>learning</artifactId>
     <version>V2024</version>
     <packaging>jar</packaging>
-
     <name>learning</name>
-    <url>http://maven.apache.org</url>
-
+    <url>http://www.ailvcheng.top</url>
+    <description>2024 Java卷 学习篇</description>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -21,6 +19,13 @@
             <version>1.18.32</version>
             <scope>provided</scope>
         </dependency>
+        <!--        hutool-->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.8.26</version>
+        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

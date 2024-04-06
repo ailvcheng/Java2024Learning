@@ -1,2 +1,7 @@
-package top.ailvcheng.t0406_annotation.annoattion;public class Son {
+package top.ailvcheng.t0406_annotation.annoattion;
+
+import lombok.Data;
+@Data
+class Son extends Father {
+    private String play;
 }
